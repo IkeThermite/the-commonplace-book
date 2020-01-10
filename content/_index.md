@@ -5,6 +5,12 @@ type: docs
 
 # The Commonplace Book
 
+$$
+\begin{equation}
+x = 5
+\end{equation}
+$$
+
 My goal is to create a webpage to serve as a personal knowledge
 management system (PKM). I'm inspired by the [Everything I
 know](https://wiki.nikitavoloboev.xyz/) PKM Gitbook by [Nikita

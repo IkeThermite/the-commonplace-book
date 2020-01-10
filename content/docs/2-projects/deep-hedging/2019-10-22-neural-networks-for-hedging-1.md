@@ -21,11 +21,11 @@ Owing to the current [state of machine learning frameworks](https://thegradient.
 
 # A First Network <a name="afirstnetwork"></a>
 Beuhler et al. use a neural network with two hidden layers to compute the necessary position (delta) in the underlying for that trading day.
-The network is semi-recurrent because the delta for day $$i$$ is used as an input for the new network at day $$i+1$$.
+The network is semi-recurrent because the delta for day $i$ is used as an input for the new network at day $i+1$.
 It is also *very deep* as you essentially have two hidden layers per trading day.
 
 To start, I construct the simplest neural network based on their hyperparameters. 
-They use $$d+15$$ nodes per hidden layer, where $$d$$ is the number of inputs (the underlying assets to be traded).
+They use $d+15$ nodes per hidden layer, where $d$ is the number of inputs (the underlying assets to be traded).
 Using PyTorch, the network is defined as follows:
 
 ```python
@@ -74,7 +74,7 @@ visualized by saving the Pytorch model and then importing it into Netron.
 
 # Learning The Black-Scholes Delta <a name="blackscholesdelta"></a>
 To check that the network is implemented correctly, I test whether it can approximate a *known* non-linear function. 
-For this, I generate a random sample of initial stock price values and use as a target the corresponding Black-Scholes deltas for a call option struck at $$100$$, one week from maturity.
+For this, I generate a random sample of initial stock price values and use as a target the corresponding Black-Scholes deltas for a call option struck at $100$, one week from maturity.
 
 ```python
 # Functions
@@ -159,15 +159,15 @@ As can be seen below, our simple network manages to approximate the analytical B
 The next step is to attempt to learn the best hedge position without any knowledge of the analytical delta, but rather by trying to minimize the profit and loss.
 The simplest case is a one-period model. 
 
-At $$t_0$$ we sell a call option for $$C_0$$ and buy $$\delta_0$$ units of the underlying stock, $$S_0$$. 
-Then at $$T_1$$ we have to pay out the payoff of the option (if positive) and close out our position. Thus, the function we want to minimize looks like
+At $t_0$ we sell a call option for $C_0$ and buy $\delta_0$ units of the underlying stock, $S_0$. 
+Then at $T_1$ we have to pay out the payoff of the option (if positive) and close out our position. Thus, the function we want to minimize looks like
 
-{{< katex >}}
+$$
 \delta_0(S_1 - S_0) + C_0 - (S_1 - K)^+
-{{< /katex >}}
+$$
 
 This will be close to the Black-Scholes delta, with a difference accounting for the discrete-time nature of the hedge.
-We need to price the call options at $$t_0$$ as well as simulate realizations for the underlying asset at $$t_1$$. 
+We need to price the call options at $t_0$ as well as simulate realizations for the underlying asset at $t_1$. 
 I also construct new data loaders.
 
 ```python
@@ -211,7 +211,7 @@ for epoch in range(num_epochs):
 ```
 
 The optimization here is not as smooth as for the previous case, which is to be expected considering
-the additional randomness (the simulations of $$S_1$$) and non-linearity (we're further removed from the target function).
+the additional randomness (the simulations of $S_1$) and non-linearity (we're further removed from the target function).
 The convergence is illustrated below.
 
 ![Learning a One-step Hedge](/img/bs_hedge_1.gif#center)

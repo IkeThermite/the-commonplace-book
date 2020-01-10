@@ -30,7 +30,7 @@ The network is _recurrent_, as the output at the current time (the hidden state)
 
 In PyTorch, the network is defined as follows:
 
-{% highlight python %}
+```python
 class Net(nn.Module):
     def __init__(self, num_neurons):
         super(Net, self).__init__()
@@ -53,23 +53,23 @@ class Net(nn.Module):
             output.append(self.y)
         
         return output, self.y       
-{% endhighlight %}
+```
 
 The recurrent nature of the net comes from the ``for`` loop inside the ``forward`` method. There are two further modifications to the structure from Part 1: an additional sigmoid function on the first linear layer and a batch normalization procedure applied before the second layer. Batch normalization was recommended in the original paper and greatly increased the learning rate of the network.
 
 # Learning The Two-step Hedge <a name="hedge"></a>
 We attempt to learn the best hedge position at each timestep by minimizing the terminal profit and loss.
 
-At $$t_0$$ we sell a call option for $$C_0$$ and buy $$\delta_0$$ units of the underlying stock, $$S_0$$.
-At $$t_1$$ we rebalance our hedge by adjusting our holding in the stock (our final position must be $$\delta_1$$). Finally, at $$T = t_2$$ we have to pay out the payoff of the option (if positive) and close out our position. Thus, the function we want to minimize looks like
+At $t_0$ we sell a call option for $C_0$ and buy $\delta_0$ units of the underlying stock, $S_0$.
+At $t_1$ we rebalance our hedge by adjusting our holding in the stock (our final position must be $\delta_1$). Finally, at $T = t_2$ we have to pay out the payoff of the option (if positive) and close out our position. Thus, the function we want to minimize looks like
 
-{{< katex >}}
+$$
 \delta_1(S_2 - S_1) + \delta_0(S_1 - S_0) + C_0 - (S_2 - K)^+
-{{< /katex >}}
+$$
 
-and our network must provide both $$\delta_0$$ and $$\delta_1$$. Again these should be close to the Black-Scholes deltas, with the difference accounting for the discrete-time nature of the hedge.
+and our network must provide both $\delta_0$ and $\delta_1$. Again these should be close to the Black-Scholes deltas, with the difference accounting for the discrete-time nature of the hedge.
 
-To create the training set, we need to price the call options at $$t_0$$ as well as simulate realizations for the underlying asset at $$t_1$$ and $$t_2$$. 
+To create the training set, we need to price the call options at $t_0$ as well as simulate realizations for the underlying asset at $t_1$ and $t_2$. 
 
 The training of the RNN is illustrated below and contrasted to the analytical Black-Scholes delta at each timestep.
 
@@ -77,6 +77,6 @@ The training of the RNN is illustrated below and contrasted to the analytical Bl
 
 # Next Steps <a name="nextsteps"></a>
 Roughly:
-1. What is happening in the tails at $$t_1$$? Are there simply too few samples there to learn the appropriate shape?
-2. Expand the two-period hedge to a $$n$$-period hedge. I am dissatisfied that the PyTorch ``RNNCell`` couldn't match my requirements here and that's worth investigating. I'll also need to get significantly more skilled at manipulating arrays.
+1. What is happening in the tails at $t_1$? Are there simply too few samples there to learn the appropriate shape?
+2. Expand the two-period hedge to a $n$-period hedge. I am dissatisfied that the PyTorch ``RNNCell`` couldn't match my requirements here and that's worth investigating. I'll also need to get significantly more skilled at manipulating arrays.
 2. As before, I still intend to change the underlying model to Heston. For this, we'll need two-dimensional inputs, as we'll require a derivative trading instrument to hedge the volatility.
