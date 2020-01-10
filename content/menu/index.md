@@ -1,0 +1,26 @@
+---
+headless: true
+bookMenuLevels: 1
+---
+- [**Projects**]({{< relref "/docs/2-projects" >}})
+    - [Deep Hedging]({{< relref "/docs/2-projects/deep-hedging" >}})
+    - [Deep Hedging]({{< relref "/docs/2-projects/deep-hedging" >}})
+- [**Areas**]({{< relref "/docs/3-areas" >}})
+- [**Resources**]({{< relref "/docs/4-resources" >}})
+- [**Archive**]({{< relref "/docs/5-archives" >}})
+  - [**Example Site**]({{< relref "/docs/5-archives/example" >}})
+    - [Table of Contents]({{< relref "/docs/5-archives/example/table-of-contents" >}})
+        - [With ToC]({{< relref "/docs/5-archives/example/table-of-contents/with-toc" >}})
+        - [Without ToC]({{< relref "/docs/5-archives/example/table-of-contents/without-toc" >}})
+    - [2nd]({{< relref "/docs/5-archives/example/2nd" >}})
+        - [3rd]({{< relref "/docs/5-archives/example/2nd/3rd" >}})
+            - [4th]({{< relref "/docs/5-archives/example/2nd/3rd/4th" >}})  
+  - **Shortcodes**
+      - [Buttons]({{< relref "/docs/5-archives/shortcodes/buttons" >}})
+      - [Columns]({{< relref "/docs/5-archives/shortcodes/columns" >}})
+      - [Expand]({{< relref "/docs/5-archives/shortcodes/expand" >}})
+      - [Hints]({{< relref "/docs/5-archives/shortcodes/hints" >}})
+      - [Katex]({{< relref "/docs/5-archives/shortcodes/katex" >}})
+      - [Mermaid]({{< relref "/docs/5-archives/shortcodes/mermaid" >}})
+      - [Tabs]({{< relref "/docs/5-archives/shortcodes/tabs" >}})  
+  - [**Blog**]({{< relref "/posts" >}})
