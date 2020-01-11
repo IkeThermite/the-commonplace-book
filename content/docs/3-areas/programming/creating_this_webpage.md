@@ -203,7 +203,7 @@ I create a `templates/base.html`:
 
 As well as a `static/css/style.css`:
 
-``` {.sourceCode .css}
+```css
 body {
   max-width: 70ch;
   padding: 2ch;
