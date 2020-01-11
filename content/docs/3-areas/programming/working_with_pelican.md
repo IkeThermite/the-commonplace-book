@@ -48,7 +48,7 @@ In our minimalist stylesheet, we are not currently providing support for
 the image tag `:align: center`, i.e., if we place an image in an .rst
 file,
 
-``` {.sourceCode .rst}
+``` ReST
 .. image:: images/webpage_build_02.jpg
    :width: 600px
    :alt: Minimalist victory trumpets please.

@@ -1,5 +1,3 @@
 ---
 title: "Programming"
 ---
-
-# Programming
