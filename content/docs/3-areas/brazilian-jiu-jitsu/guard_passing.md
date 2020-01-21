@@ -14,8 +14,46 @@ These positions form the central nodes in my system of guard passing.
  - Head low, looking across far shoulder. Whole body oriented *into* him.
  - Palm facing on left pants grip to defend against Ude Katame and Sankaku Jime.
 
+## Guard Passing Techniques
+
+### Over Under Pass
+
+#### Guard Retention
+
+Guard Retention Phases:
+    
+1.  Opponent is kneeling, trapping one of my legs between his with a low grip on my gi pants. He has his other arm underneath my far leg, gripping my belt.
+2.  Opponent has tripoded up, connected his shoulder to my centerline and placed his head in position. He is attempting to cover my knee.
+3.  Opponent has covered my knee and is attempting to reverse / square up, pointing my hips away from him.
+4.  Alternative: Opponent is just about to cover my knee, but I have deep / good inside leg position.
+
+{{< expand "Phase 1: [Opponent has grips] $\rightarrow$ Frame and Hip Escape" "+" >}}
+   
+*Opp. is sitting on top of one foot, low grip on gi pants, far arm under far leg. Everything begins with the lead shoulder. What keeps his shoulder in place is his head position.*
+1.  Post heel of near hand against opponent's shoulder.
+2.  Insert Cross Collar grip with far hand to block lead shoulder (hasn't solved far shoulder problem, opp. can shake his head left and right).
+3.  Hip out to the far side and bring knee as a wedge to his far shoulder. My knee and elbow connect.
+4.  As soon as I can, shift a little more out and bring my foot to his shoulder.
+5.  Pummel foot through, make space and free trapped leg.
+6.  Immediately go to Closed Guard.
+
+{{< /expand >}}
+
+{{< expand "Phase 2: [Opponent in Tripod] $\rightarrow$ Move Head" "+" >}}
+    
+*Too late to prevent lead shoulder position, he has connected his shoulder to my centerline and placed his head in position. I must try to prevent him from covering my knee. Before he covers my knee, I can attempt to move his head to the other side.*
+1.  Take my forearm and hold his head.
+2.  Push off my knee and straighten my body out. Moving my body around his head.
+3.  Take opposite elbow over his head and start to come up (using my leg like a pendulum), reaching to grab his belt and covering his head.
+4.  Grab his gi pants and bump him down to his shoulder.
+    1.  If he brings his head back to the center, go to Triangle Lock / Closed Guard instead.
+5.  Place hand on the floor and come up.
+
+{{< /expand >}}
+
 ## Guard Passing Sequences
 
+### Stack and Staple Sequences
 {{< expand "Closed Guard $\rightarrow$ Full Staple" "+" >}}
 
 *Original sequence is from Fabio Gurgel. 
@@ -126,39 +164,8 @@ Resources:
  - Rafael Lovato Jr - Ultimate Pressure Passing System
  - [Stack Pass by Fabio Gurgel](https://www.youtube.com/watch?v=i29jJKrK29M)
 
-### Over Under Pass
 
-1.  Guard Retention
 
-    1.  Guard Retention Phases:
-    
-        1.  Opponent is kneeling, trapping one of my legs between his with a low grip on my gi pants. He has his other arm underneath my far leg, gripping my belt.
-        2.  Opponent has tripoded up, connected his shoulder to my centerline and placed his head in position. He is attempting to cover my knee.
-        3.  Opponent has covered my knee and is attempting to reverse / square up, pointing my hips away from him.
-        4.  Alternative: Opponent is just about to cover my knee, but I have deep / good inside leg position.
-    
-    2.  Phase 1: [Opponent has grips] $\rightarrow$ Frame and Hip Escape
-    
-        *Opp. is sitting on top of one foot, low grip on gi pants, far arm under far leg. Everything begins with the lead shoulder. What keeps his shoulder in place is his head position.*
-        
-        1.  Post heel of near hand against opponent's shoulder.
-        2.  Insert Cross Collar grip with far hand to block lead shoulder (hasn't solved far shoulder problem, opp. can shake his head left and right).
-        3.  Hip out to the far side and bring knee as a wedge to his far shoulder. My knee and elbow connect.
-        4.  As soon as I can, shift a little more out and bring my foot to his shoulder.
-        5.  Pummel foot through, make space and free trapped leg.
-        6.  Immediately go to Closed Guard.
-    
-    3.  Phase 2: [Opponent in Tripod] $\rightarrow$ Move Head
-    
-        *Too late to prevent lead shoulder position, he has connected his shoulder to my centerline and placed his head in position. I must try to prevent him from covering my knee. Before he covers my knee, I can attempt to move his head to the other side.*
-        
-        1.  Take my forearm and hold his head.
-        2.  Push off my knee and straighten my body out. Moving my body around his head.
-        3.  Take opposite elbow over his head and start to come up (using my leg like a pendulum), reaching to grab his belt and covering his head.
-        4.  Grab his gi pants and bump him down to his shoulder.
-            1.  If he brings his head back to the center, go to Triangle Lock / Closed Guard instead.
-        5.  Place hand on the floor and come up.
 
-2.  Passing Sequences
 
 

@@ -5,8 +5,6 @@ bookToC: 3
 ---
 # Playing Guard
 
-
-
 ### Butterfly Guard
 
 Ude Gatame (Fabio Gurgel)
