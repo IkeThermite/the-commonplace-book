@@ -32,7 +32,7 @@ What I want my webpage to contain:
 
 -   Technical tutorials to remind myself how to accomplish complex tasks
     -   Perhaps even checklists as motivated by [The Checklist
-        Manifesto](#The Checklist Manifesto)?
+        Manifesto](http://atulgawande.com/book/the-checklist-manifesto/)?
 -   Easy to navigate Brazilian Jiu Jitsu knowledge database
 
 Other options I considered for creating this webpage:
