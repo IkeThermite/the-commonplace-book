@@ -5,35 +5,20 @@ bookToC: 3
 ---
 # Playing Guard
 
-### Butterfly Guard
-
-Ude Gatame (Fabio Gurgel)
-<https://www.youtube.com/watch?v=GCLBedHHQvM>
-Shoulder Lock Sweep (Gordon Ryan)
-<https://www.youtube.com/watch?v=VFbUih8C-Lk>
-
-
-<a id="orgc7ef4df"></a>
-
 ### Collar-Sleeve and De La Riva Guard
 
-1.  Sources:
+{{< expand "Seated Guard $\rightarrow$ Collar Sleeve" "+" >}}
+*The game is about getting a single Straight Sleeve Grip with my left hand. Everything comes from there.*
+1. Establish left hand Straight Cuff Grip.
+2. Fall back immediately. Right foot to bicep, left foot takes Half Lasso (in front of neck).
+3. Goal is to get his gripped hand above my hips.
+4. Now the left foot can safely unwind and go to the hip.
+5. Left foot is responsible for the posture control.
 
-    Gianni Grippo - All About the Bolo
-    [Felipe Pena - Back Take from De La Riva](https://www.youtube.com/watch?v=2VvssgliEfk)
-    [Jon Thomas - Understanding De La Riva](https://www.youtube.com/watch?v=-_Ye7G2N3S0)
-    [TECH/STRG - 5 Collar & Sleeve Drills to Improve Your Open Guard](https://www.youtube.com/watch?v=qnrGgDIXyGE)
-    [Lachlan Giles - Triangle Choke and Overhead Sweep](https://www.youtube.com/watch?v=IHgdNWKK1yM)
-
-2.  Seated Guard $\rightarrow$ Collar Sleeve
-
-    *The game is about getting a single Straight Sleeve Grip. Everything comes from there.*
-    
-    1.  Establish Collar and Sleeve grips. (I can set this up with just the sleeve, by being aggressive with the Half Lasso.)
-    2.  Fall back immediately. Right foot to bicep, left foot takes Half Lasso (in front of neck).
-    3.  Goal is to get his gripped hand above my hips.
-    4.  Now the left foot can safely unwind and go to the hip.
-    5.  Left foot is responsible for the posture control.
+References:
+- [Jon Thomas - Why You Need To Understand The Lasso](https://www.youtube.com/watch?v=Lcdc6Jw6cnI)
+- [Jon Thomas - Understand the Collar Sleeve Guard In 5 Min](https://www.youtube.com/watch?v=PKQEms4w9T4)
+{{< /expand >}}
 
 3.  Collar Sleeve $\rightarrow$ Triangle
 
@@ -88,3 +73,10 @@ Shoulder Lock Sweep (Gordon Ryan)
     5.  Roll over my right shoulder and kick my feet hard to the mat.
     6.  Pull right hand out and reach for the back of the collar.
     7.  Pull myself up until my head is above his head and then insert second hook (left leg). Push off the mat with my feet to help the climb.
+
+Resources:
+- Gianni Grippo - All About the Bolo
+- [Felipe Pena - Back Take from De La Riva](https://www.youtube.com/watch?v=2VvssgliEfk)
+- [Jon Thomas - Understanding De La Riva](https://www.youtube.com/watch?v=-_Ye7G2N3S0)
+- [TECH/STRG - 5 Collar & Sleeve Drills to Improve Your Open Guard](https://www.youtube.com/watch?v=qnrGgDIXyGE)
+- [Lachlan Giles - Triangle Choke and Overhead Sweep](https://www.youtube.com/watch?v=IHgdNWKK1yM)
