@@ -5,15 +5,32 @@ bookToC: 3
 ---
 # Playing Guard
 
-### Collar-Sleeve and De La Riva Guard
+### Cross Collar Sleeve Guard and De La Riva Guard
+{{< expand "Seated Guard $\rightarrow$ Cross Collar Sleeve Guard" "+" >}}
+*Primary entry. Relies on the ability to establish Cross Collar Grip.*
 
-{{< expand "Seated Guard $\rightarrow$ Collar Sleeve" "+" >}}
-*The game is about getting a single Straight Sleeve Grip with my left hand. Everything comes from there.*
-1. Establish left hand Straight Cuff Grip.
-2. Fall back immediately. Right foot to bicep, left foot takes Half Lasso (in front of neck).
-3. Goal is to get his gripped hand above my hips.
-4. Now the left foot can safely unwind and go to the hip.
-5. Left foot is responsible for the posture control.
+1. Opponent has left foot forward. My right knee will be up, left leg folded, left hand posted behind me.
+    - This mirroring is so that my Cross Collar grip can be used to square up my opponent. I want to pull his far leg forward.
+2. I come forward, reaching my right hand for the Cross Collar grip. This may require a feint.
+3. As soon as the grip is established, I fall backward, pulling my opponent square. I take Double Inside Position with my feet (Sticky Hooks).
+    - Cross Collar Grip and Sticky Hooks mitigate most immediate passes.
+4. From here, take Cuff Grip with left hand, take left foot to hip and right foot to bicep $\rightarrow$ Cross Collar Sleeve Guard.
+
+References:
+ - John Danaher - Go Further Faster Vol 5 - Open Guard
+
+{{< /expand >}}
+
+{{< expand "Seated Guard $\rightarrow$ Half Lasso $\rightarrow$ Cross Collar Sleeve Guard" "+" >}}
+*Secondary entry, when opponent denies Cross Collar Grip. Work from Cuff Grip instead. Cuff Grip with Half Lasso always provides collar access.*
+
+1. Standard Seated Guard position, but opponent is hiding Cross Collar Grip. 
+2. Take Cuff Grip with left hand and fall back doing two things at once:
+    1. Pull his gripped hand above my hips.
+    2. Bring left foot in front of his gripped right arm, toes by his shoulder $\rightarrow$ Half Lasso.
+3. Take Cross Collar Grip with right hand and place right foot on far bicep.
+4. Now the left foot can safely unwind from Half Lasso $\rightarrow$ Cross Collar Sleeve Guard.
+    - Note: Hip foot and Cross Collar Grip are responsible for the posture control.
 
 References:
 - [Jon Thomas - Why You Need To Understand The Lasso](https://www.youtube.com/watch?v=Lcdc6Jw6cnI)
