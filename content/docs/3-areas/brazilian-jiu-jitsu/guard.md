@@ -5,7 +5,25 @@ bookToC: 3
 ---
 # Playing Guard
 
-### Cross Collar Sleeve Guard and De La Riva Guard
+## Cross Collar Sleeve Guard
+### Overview
+
+**Three Keys to Dominant Position:**
+ 1. Keep opponent's head below his hips.
+ 2. Keep his lead elbow inside my hips.
+ 3. Keep his outside elbow out and away from his body.
+
+**Some Principles:**
+- Collar grip must be above his shoulder. Constantly work it up until it's behind his neck.
+- Sticky foot on the bicep.
+- Four points of connection make it easy to rotate with your opponent.
+- Constantly bring my opponent's hands down to the mat by kicking his far leg away and pulling his collar down.
+- If I lose the bicep connection, I must immediately kick his knee out and bring his hands down to the mat.
+- Opponent dropping to two knees must be submission suicide for him.
+
+
+
+### Techniques
 {{< expand "Seated Guard $\rightarrow$ Cross Collar Sleeve Guard" "+" >}}
 *Primary entry. Relies on the ability to establish Cross Collar Grip.*
 
@@ -18,7 +36,6 @@ bookToC: 3
 
 References:
  - John Danaher - Go Further Faster Vol 5 - Open Guard
-
 {{< /expand >}}
 
 {{< expand "Seated Guard $\rightarrow$ Half Lasso $\rightarrow$ Cross Collar Sleeve Guard" "+" >}}
