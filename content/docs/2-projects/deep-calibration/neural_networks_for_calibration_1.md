@@ -1,10 +1,10 @@
 ---
-title: "Neural Networks for Calibration: Part 1"
+title: "Neural Networks for Calibration"
 date: 2020-01-03
 bookToC: 3
 ---
 
-# Neural Networks for Calibration: Part 1
+# Neural Networks for Calibration
 
 ## Introduction
 The purpose of this page is track my experiments with using neural networks to move the hard work of model calibration "offline".
@@ -54,4 +54,28 @@ Let's take one step up.
 Consider the CEV model, a generalization of Black-Scholes:
 $$ dS_t = rS_t dt + \sigma S^\alpha_t dW_t $$
 Now, given an option price, I want my network to be able to determine the parameter set, $\Theta=(\sigma, \alpha)$ that produced it.
+So, I want to learn the inverse of the pricing function below.
+![The input CEV option prices.](/img/cev_calibration.jpg#center)
 
+The neural net needs some adapting, as we now require two outputs, not just the implied volatility:
+```python
+class Net(nn.Module):
+    def __init__(self, num_neurons):
+        super(Net, self).__init__()
+        self.lin1 = nn.Linear(1, num_neurons)
+        self.softplus1 = nn.Softplus()
+        self.bn2 = nn.BatchNorm1d(num_neurons, affine=False)
+        self.lin2 = nn.Linear(num_neurons, 2) # must return alpha and sigma
+        self.softplus2 = nn.Softplus()
+        
+    def forward(self, out):
+        out = self.softplus1(self.lin1(out))
+        out = self.bn2(out)
+        out = self.softplus2(self.lin2(out))
+        return out
+```
+
+Other than that, it stays the same. And again, stochastic gradient descent is all we need for easy convergence.
+For the training set, I used option prices generated from a 250 by 250 grid of $(\sigma, \alpha)$ pairs.
+
+![Learning the CEV option pricing surface.](/img/cev_calibration.gif#center)

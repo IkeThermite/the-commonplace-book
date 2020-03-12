@@ -5,6 +5,52 @@ bookToC: 3
 ---
 # Playing Guard
 
+## No Gi Seated Guard
+**Standing vs Seated Guard Options:**
+1. Inside Position: Straight Hamstring (Headquarters) or Cross Hamstring (Cross Knee).
+2. Around the Guard (Double Outside Position): Toreando / X Pass.
+3. Over or Under the Guard: Rolling Kimura / Rolling Guillotine. Push back to Double Ankle or Double Under Grips.
+
+<!-- **Seated Guard vs Standing Options:**
+1. Double Inside Position: Shin to Shin vs Staggered Opponent. Idiot Sweep vs Square Opponent.
+2. Inside Position: Sit Up Guard vs Upright Opponent. Reverse De La Riva vs Driving Opponent. -->
+
+**Some Seated Guard Principles:**
+- Don't want to be on my back. So sit curled up, shoulders in front of the line of my hips.
+- Don't want to allow access to my feet. So keep them tight against my body and keep my hands ready to defend them.
+- Head up, shoulders shrugged, but don't allow my opponent's head to come lower than mine.
+- Post, scoot back and reset if he starts to win the grip fighting.
+
+### Techniques
+**Building Guard Against Over or Under Attempts**
+{{< expand "[Leg Grab] $\rightarrow$ Arm Drag $\rightarrow$ Shin to Shin / Sit Up Guard" "+" >}}
+- If my opponent reaches for my legs I can Arm Drag. 
+- The Arm Drag feeds into the Single Leg or Shin to Shin, but NOT the Back Take. Against a standing opponent the Back Take leads to Three Quarter Mount.
+{{< /expand >}}
+
+{{< expand "[Shoulder Push] $\rightarrow$ Single Leg X" "+" >}}
+1. As my opponent comes in to push against my left shoulder, I "Eat The Sandwhich". Take a 2-on-1 grip in the wrist of his reaching hand and pull it over and across.
+2. As I fall back my right foot goes to the hip. This allows me to catch the left Sticky Hook.
+3. Now I can collapse in with both knees. I load my opponent up and elevate. 
+4. Left hand pulls the leg through and I enter Single Leg X.
+{{< /expand >}}
+
+
+**Building Guard Against Inside Position**
+{{< expand "[Steps to Inside] $\rightarrow$ Shin to Shin / Sit Up Guard" "+" >}}
+1. First contact: Grab the knee, without extending the elbow away from the body. Lean in, bring the shoulder forward.
+    - If opponent is upright, circle hard to Sit Up Guard and start the Single Leg series.
+    - If opponent is driving his knee forward, scoot hips back and pummel for Shin to Shin. (His bended knee gives access to his shin.)
+{{< /expand >}}
+
+{{< expand "[Steps to Inside, Pushes Back, Strong Cross Knee] $\rightarrow$ Reverse de la Riva $\rightarrow$ Shin to Shin / Sit Up Guard" "+" >}}
+
+1. Opponent pushes me back hard and starts the Knee Cut.
+2. Pull Reverse de la Riva and grip the back of both of his elbows.
+3. Push him away hard and grip the back of his knee.
+4. Use the grip to pull myself up to Shin to Shin Guard (or Sit Up Guard).
+{{< /expand >}}
+
 ## Cross Collar Sleeve Guard
 ### Overview
 
