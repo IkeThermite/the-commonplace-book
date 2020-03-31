@@ -1,25 +1,19 @@
 ---
-title: "Neural Networks for Hedging: Part 1"
+title: "Neural Networks for Hedging I"
 date: 2019-10-22
+bookToC: 3
 ---
 
-# Table of Contents
-1. [Introduction](#introduction)
-2. [A First Network](#afirstnetwork) 
-3. [Learning The Black-Scholes Delta](#blackscholesdelta)
-4. [Learning A One-step Hedge](#hedge)
-5. [Next Steps](#nextsteps)
-6. [Resources](#resources)
+# Neural Networks for Hedging I
 
-
-# Introduction <a name="introduction"></a>
+## Introduction
 The purpose of this page is track my progress implementing the 2018 (published in 2019) paper by Beuhler et al., ["Deep Hedging"](https://www.tandfonline.com/doi/full/10.1080/14697688.2019.1571683).
 In that paper they use a semi-recurrent deep neural network to calculate the appropriate hedging positions when hedging vanilla options.
 
 They begin in a simulation setting using the Heston model and their network is implemented using [TensorFlow](http://tensorflow.org). 
 Owing to the current [state of machine learning frameworks](https://thegradient.pub/state-of-ml-frameworks-2019-pytorch-dominates-research-tensorflow-dominates-industry/), as well as to the fact that one of my colleagues already has TensorFlow experience, I have decided to use [PyTorch](https://pytorch.org).
 
-# A First Network <a name="afirstnetwork"></a>
+## A First Network
 Beuhler et al. use a neural network with two hidden layers to compute the necessary position (delta) in the underlying for that trading day.
 The network is semi-recurrent because the delta for day $i$ is used as an input for the new network at day $i+1$.
 It is also *very deep* as you essentially have two hidden layers per trading day.
@@ -72,7 +66,7 @@ visualized by saving the Pytorch model and then importing it into Netron.
 
 ![A simple network represented as an execution path.](/img/simple_network_netron.png#center)
 
-# Learning The Black-Scholes Delta <a name="blackscholesdelta"></a>
+## Learning The Black-Scholes Delta
 To check that the network is implemented correctly, I test whether it can approximate a *known* non-linear function. 
 For this, I generate a random sample of initial stock price values and use as a target the corresponding Black-Scholes deltas for a call option struck at $100$, one week from maturity.
 
@@ -155,7 +149,7 @@ As can be seen below, our simple network manages to approximate the analytical B
 
 ![Learning the Black-Scholes Delta](/img/bs_delta_1.gif#center)
 
-# Learning A One-step Hedge <a name="hedge"></a>
+## Learning A One-step Hedge
 The next step is to attempt to learn the best hedge position without any knowledge of the analytical delta, but rather by trying to minimize the profit and loss.
 The simplest case is a one-period model. 
 
@@ -216,14 +210,14 @@ The convergence is illustrated below.
 
 ![Learning a One-step Hedge](/img/bs_hedge_1.gif#center)
 
-# Next Steps <a name="nextsteps"></a>
+## Next Steps
 Roughly:
 1. Implement a two-period hedge. This requires constructing a semi-recurrent network, for which I'll need additional PyTorch API knowledge.
 2. Change the underlying model to Heston. For this, we'll need two-dimensional inputs, as we'll require a derivative trading instrument to hedge the volatility.
 
-# Resources <a name="resources"></a>
+## Resources
 The simple neural network was visualized using
- - [Netron](https://lutzroeder.github.io/ai) and
+ - [Netron](https://lutzroeder.github.io/netron/) and
  - [NN SVG](http://alexlenail.me/NN-SVG/index.html)
  
  Both have browser-based implementations available. 

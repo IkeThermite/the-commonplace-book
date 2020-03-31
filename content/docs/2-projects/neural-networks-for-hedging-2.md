@@ -1,13 +1,13 @@
 ---
-title: "Neural Networks for Hedging: Part 2"
+title: "Neural Networks for Hedging II"
 date: 2019-11-27
 bookToC: 3
 ---
 
-# Neural Networks for Hedging: 
+# Neural Networks for Hedging II
 
 ## Introduction 
-This is Part 2, Part 1 can be found [here](https://www.ralphrudd.com/docs/2-projects/deep-hedging/neural-networks-for-hedging-1/). All the code for both parts is available on [Github](https://github.com/IkeThermite/Buehler-et-al-Deep-Hedging).
+This is Part 2, Part 1 can be found [here](https://www.ralphrudd.com/docs/2-projects/neural-networks-for-hedging-1/). All the code for both parts is available on [Github](https://github.com/IkeThermite/Buehler-et-al-Deep-Hedging).
 Our goal is to implement the 2018 (published in 2019) paper by Beuhler et al., ["Deep Hedging"](https://www.tandfonline.com/doi/full/10.1080/14697688.2019.1571683), using [PyTorch](https://pytorch.org).
 
 In [Part 1](http://www.ralphrudd.com/blog/2019/10/22/neural-networks-for-hedging-1), we built a very simple neural net with two hidden layers. As a first test-case, we used it to approximate the Black-Scholes delta function, when the true analytical delta is used as the loss function.

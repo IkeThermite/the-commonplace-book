@@ -9,9 +9,9 @@ bookToC: 3
 ## Introduction
 The purpose of this page is track my experiments with using neural networks to move the hard work of model calibration "offline".
 
-My primary resource is the 2016 paper by Hernandez, ["Model Calibration with Neural Networks"]().
-This served as the inspiration for a ["2017 Financial Mathematics Team Challenge Project"](), which was supervised by Josef Teichman. 
-Finally, in 2018 Nicolau Haussamer wrote ["Model Calibration with Machine Learning"]() as his short dissertation, in partial fulfillment of his MPhil in Mathematical Finance at the University of Cape Town.
+My primary resource is the 2016 paper by Hernandez, ["Model Calibration with Neural Networks"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2812140).
+This served as the inspiration for a ["2017 Financial Mathematics Team Challenge Project"](), which was supervised by [Josef Teichman](https://people.math.ethz.ch/~jteichma/). 
+Finally, in 2018 Nicolau Haussamer wrote ["Model Calibration with Machine Learning"](https://open.uct.ac.za/handle/11427/29451) as his short dissertation, in partial fulfillment of his MPhil in Mathematical Finance at the University of Cape Town.
 
 ## A First Network
 In statistics, you begin with the normal distribution.
