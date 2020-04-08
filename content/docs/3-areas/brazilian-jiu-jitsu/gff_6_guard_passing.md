@@ -50,7 +50,7 @@ Trigger:
     - **CHECKPOINT:** Plough Position.
 9. Move right hand to Right Cross High Lapel Grip to gain head control.
 10. Start driving hips forward by taking my right knee off the floor and arch my body.
-11. Bring right elbow over his head and settle down into a side pin.
+11. Bring right elbow over his head and settle down into Modified Side Control.
 
 Full Technique Run Through: Disc 3 00:15:05
 
@@ -75,3 +75,26 @@ When I am centered with my opponent, he can easily makes his legs very heavy. I 
 **Getting Underneath His Legs**  
 Don't try to swim or pummel underneath his legs with your arms! This will expose you to various types of open guard, i.e., Lasso and Spider variations.
 {{< /hint >}}
+
+## The Over Under Pass
+- Closely connected to Double Under; both work by controlling opponent's hips.
+- So mechanically efficient and conceptually simple, it doesn't really need combinations.
+- Open Guard is only effective when my opponent has one knee on each side of his Centerline. With the Over Under Pass, I am moving both knees to one side of his centerline.
+
+*Training partner is on his back, knees tucked to his chest, heels pulled to his buttocks. I'm standing, approaching the guard.*
+- Stay outside his Toeline. Left Straight Low Pants Grip. By his ankle, on the outside. To get this grap, slap his foot with my right hand towards my left.
+- Use the heel of my hand to control his foot.
+- Right hand posts on his left knee, on the inside.
+- Drive his heel to his buttocks and step to the left, then in, pinching both my knees over my partner's ankle.
+- Right hand slides underneath his knee, Scoop Grip, reaching for his belt or gi.
+- I "dive" over his trapped knee, sliding my left bicep to the front and connect my chin to my right thumb. My left hip is lower than my right hip; I'm asymmetrical. Keep this position throughout!
+- Push with my left hand, and walk my feet up towards him, until my whole body is aligned with his Hipline.
+- Catch his knee underneath my hip. Once I've caught his knee, I release my left hand and move it to his hamstring.
+- The I can "carry" his legs back to the centerline.
+- Bring my left foot forward and post tightly against his leg. Then Backstep my right leg out.
+    - I may need to straighten my right leg first and Windshield wiper.
+- Bring right knee as wedge underneath his knee. Follow if I must.
+- Take left hand to control his head, gripping behind his neck. Pull him into me to finish the pass.
+    - Alternative: I can bring my right hand over his far hip and pull his legs back, until my elbow touches my knee.
+
+Full Technique Run Through: Disc 3 00:42:54
